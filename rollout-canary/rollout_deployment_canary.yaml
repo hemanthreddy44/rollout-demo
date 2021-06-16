@@ -11,11 +11,11 @@ spec:
       - setWeight: 20
       - pause: {}
       - setWeight: 40
-      - pause: {duration: 60}
+      - pause: {duration: 30}
       - setWeight: 60
-      - pause: {duration: 60}
+      - pause: {duration: 30}
       - setWeight: 80
-      - pause: {duration: 60}
+      - pause: {duration: 30}
   revisionHistoryLimit: 10
   selector:
     matchLabels:

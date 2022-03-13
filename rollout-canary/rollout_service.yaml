@@ -5,7 +5,8 @@ metadata:
   namespace: rolloutdemo
 spec:
   ports:
-  - port: 80
+  - type:NodePort
+    port: 80
     targetPort: http
     protocol: TCP
     name: http
